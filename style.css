@@ -1,0 +1,75 @@
+/* Giving the body a specific background color and font sizes*/
+body{
+  background: #d8d5d5;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/* Give our navbar some padding and a background color */
+.navbar {
+  padding: 0px;
+  width: 100%;
+  background: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: rgb(20, 150, 150);
+  padding: 10px;
+  margin-left: 5%;
+}
+
+.navbar-collapse {
+  position: absolute;
+  right: 5%;
+  font-size: small;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-size: medium;
+}
+
+
+/* Make our navbar list items inline-block elements */
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+/* Set a navbar for tiny phones */
+@media (max-width: 480px) {
+.navbar {
+    background-color: rgb(28, 241, 234);
+}
+
+.navbar-brand {
+  background-color: white;
+  font-weight: bold;
+  color: rgb(28, 241, 234);
+}
+
